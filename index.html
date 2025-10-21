@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Home — R K Jewellars</title>
-  <meta name="description" content="R K Jewellars — Modern gold and silver jewellery in Manendragarh">
-  <meta property="og:title" content="Home — R K Jewellars">
-  <meta property="og:description" content="R K Jewellars — Modern gold and silver jewellery in Manendragarh">
-  <meta property="og:image" content="assets/fallback.jpg">
-  <meta property="og:type" content="website">
-  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <title>R K Jewellars — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+
 <header class="header container">
-  <div class="logo">RK</div>
+  <div class="brand">
+    <div class="logo">RK</div>
+    <div>
+      <div style="font-weight:700;font-size:18px">R K Jewellars</div>
+      <div style="font-size:12px;color:var(--muted)">Fine Jewellery • Manendragarh, Chhattisgarh</div>
+    </div>
+  </div>
   <nav class="nav">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -25,13 +27,53 @@
     </ul>
   </nav>
 </header>
-<main class="container">
-  <h1 style="color:var(--muted)">Home</h1>
-  <p style="color:var(--muted)">This is the Home page. R K Jewellars — Modern gold and silver jewellery in Manendragarh</p>
-</main>
-<a class="whatsapp-float" href="https://wa.me/918224885568?text=Hello%20R%20K%20Jewellars%2C%20I%20have%20an%20enquiry." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
-  <img src="assets/favicon.png" alt="WhatsApp"><span>WhatsApp: +918224885568</span>
-</a>
+
+<section class="hero container" id="home">
+  <video autoplay muted loop playsinline poster="assets/fallback.jpg">
+    <source src="rk2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="hero-text">
+    <h1>Modern. Authentic. Trusted.</h1>
+    <p style="color:var(--muted);margin-top:8px">Fine gold & silver jewellery — handcrafted designs from Manendragarh.</p>
+  </div>
+</section>
+
+<div class="container grid">
+  <main>
+    <div class="card" id="about">
+      <div class="section-title"><h2>About Us</h2><span class="btn">Visit Showroom</span></div>
+      <div class="content"><p style="color:var(--muted);margin-top:0">R K Jewellars is a family-run jewellery store located near Kali Mandir, Manendragarh. We craft and sell silver (chandi) and gold jewellery including payal, bichchiya, chains, rings, haar and bangles. We focus on honest pricing and quality workmanship.</p></div>
+    </div>
+
+    <div class="card" id="featured" style="margin-top:16px">
+      <div class="section-title"><h2>Featured Products</h2><a href="products.html" class="btn">See all</a></div>
+      <div class="gallery">
+        <div class="product"><img src="assets/product1.jpg" alt="Chandi Payal"><p>Chandi ki Payal</p></div>
+        <div class="product"><img src="assets/product2.jpg" alt="Bichchiya"><p>Bichchiya (Toe ring)</p></div>
+        <div class="product"><img src="assets/product3.jpg" alt="Silver Chain"><p>Chandi ki Chain</p></div>
+        <div class="product"><img src="assets/product4.jpg" alt="Gold Ring"><p>Gold Ring</p></div>
+        <div class="product"><img src="assets/product5.jpg" alt="Haar"><p>Haar (Necklace)</p></div>
+        <div class="product"><img src="assets/product6.jpg" alt="Chudi"><p>Chudi (Bangles)</p></div>
+      </div>
+    </div>
+  </main>
+
+  <aside class="contact">
+    <div class="card" style="padding:18px">
+      <h3 style="margin-top:0">Contact & Address</h3>
+      <div class="content"><p class="phone">📞 <a href="tel:+918224885568" style="color:#fff;text-decoration:none">+91 82248 85568</a></p>
+      <p class="addr">📍 Near Kali Mandir, Manendragarh, Chhattisgarh</p>
+      <p style="color:var(--muted)">Store hours: Mon - Sat, 10:00 AM - 8:00 PM</p>
+      <p style="margin-top:8px"><a class="btn" href="contact.html">Enquiry</a></p></div>
+    </div>
+  </aside>
+</div>
+
+
+<footer class="footer container">
+  © <strong>R K Jewellars</strong> • Near Kali Mandir, Manendragarh • Phone: +91 82248 85568
+</footer>
 
 </body>
 </html>
